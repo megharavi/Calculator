@@ -1,9 +1,7 @@
 package com.flexon.calc;
 
 import static org.junit.Assert.*;
-import org.testng.annotations.BeforeTest;   
-import org.testng.annotations.Test;   
-import org.testng.annotations.AfterTest;
+import org.testng.annotations.*;   
 
 
 //import org.junit.*;
@@ -14,6 +12,7 @@ public class addTest {
 	
 		@Test
 		public void testInts() {
+			System.out.println("THIS IS TEST FOR ADDITION...................................................................");			
 			Integer x = 15;
 			Integer y = 5;
 			Integer expresult = 20;
@@ -60,6 +59,7 @@ public class addTest {
 			double delta = 0.81d;
 			double result = Calculator.add(x,y);
 			assertEquals("TESTING TWO FLOAT TYPES",expresult,Calculator.add(6.966,13.84),delta);
+			System.out.println("EXPECTED : " + expresult + " &  ACTUAL RESULT : " + Calculator.add(6.966,13.84));
 			System.out.println("..........................................");
 		}
 		
@@ -89,16 +89,15 @@ public class addTest {
 			System.out.println("EXPECTED : " + expresult + " &  ACTUAL RESULT : " + Calculator.add(-6.966,-13.6));
 			System.out.println("..........................................");
 		}
-		@BeforeTest
-		public void BeforeTest(){
-			System.out.println("BeforeTest");
-			
-		}
+//		@BeforeTest
+//		public void BeforeTest(){
+//			System.out.println("this is test for addition");			
+//		}
 
-		@AfterTest
-		public void AfterTest(){
-			System.out.println("AfterTest");			
-		}
-		
+//		@AfterTest
+//		public void AfterTest(){
+//			System.out.println("AfterTest");			
+//		}
+//		
 		
 }
