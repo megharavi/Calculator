@@ -11,7 +11,7 @@ import org.testng.annotations.*;
 public class addTest {
 	
 		@Test
-		public void testInts() {
+		public void testIntsAdd() {
 			System.out.println("THIS IS TEST FOR ADDITION...................................................................");			
 			Integer x = 15;
 			Integer y = 5;
@@ -25,7 +25,7 @@ public class addTest {
 		}
 		
 		@Test
-		public void testIntFloat() {
+		public void testIntFloatAdd() {
 			Integer x = 15;
 			double y = 5.9d;
 			double expresult = 20.9d;
@@ -38,7 +38,7 @@ public class addTest {
 		}
 		
 		@Test
-		public void testFloatInt() {
+		public void testFloatIntaAdd() {
 			double x = 15.5;
 			Integer y = 5;
 			double expresult = 20.5;
@@ -51,7 +51,7 @@ public class addTest {
 		}
 		
 		@Test
-		public void testFloats() {
+		public void testFloatsAdd() {
 			double x = 15.9;
 			double y = 5.9;
 			Integer expresult = 21;
@@ -64,7 +64,7 @@ public class addTest {
 		}
 		
 		@Test
-		public void test() {
+		public void testAdd(){
 			Integer x = -15;
 			Integer y = 5;
 			Integer expresult = 10;
@@ -77,7 +77,7 @@ public class addTest {
 		}
 	
 		@Test
-		public void testneg() {
+		public void testnegAdd() {
 			Integer x = -15 ;
 			Integer y = -5 ;
 			Integer expresult = -20;
