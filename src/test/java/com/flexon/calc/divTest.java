@@ -11,7 +11,7 @@ public class divTest {
 	
 	
 	@Test
-	public void test() {
+	public void testDiv() {
 
 		double x = 15;
 		double y = 5;
